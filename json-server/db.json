@@ -1,0 +1,23 @@
+{
+    "todos": [
+      { 
+        "id": 1, 
+        "title": "Learn React", 
+        "description": "Go through React documentation and create small projects", 
+        "completed": false 
+      },
+      { 
+        "id": 2, 
+        "title": "Learn Recoil", 
+        "description": "Learn how to use Recoil for state management in React", 
+        "completed": false 
+      },
+      { 
+        "id": 3, 
+        "title": "Build a Project", 
+        "description": "Build a full-stack project using React and Node.js", 
+        "completed": true 
+      }
+    ]
+  }
+  
