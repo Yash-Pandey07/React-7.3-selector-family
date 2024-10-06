@@ -6,7 +6,8 @@ export const todosAtomFamily = atomFamily({
   default: selectorFamily({
     key: "todoSelectorFamily",
     get: (id) => async ({get}) => {
-      
+      //Suspense add ti check useRecoilStateLoadable
+      await new Promise (r => setTimeout(r , 5000));
       try {
         //express server
         const res = await axios.get(`http://localhost:3000/todo?id=${id}`);  
